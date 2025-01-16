@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default as useColorScheme } from \"react-native-web/dist/exports/useColorScheme\";","map":{"version":3,"names":[],"sources":["/app/app-example/hooks/useColorScheme.ts"],"sourcesContent":["export { useColorScheme } from 'react-native';\n"],"mappings":"","ignoreList":[]},"metadata":{"hasCjsExports":false},"sourceType":"module","externalDependencies":[]}
