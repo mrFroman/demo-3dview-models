@@ -1,4 +1,19 @@
 /3dview/node_modules/
 /api/node_modules/
 /models-view/node_modules/
+/model-view/node_modules/
 .idea/
+
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
