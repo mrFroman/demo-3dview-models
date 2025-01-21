@@ -1,7 +1,6 @@
 /3dview/node_modules/
 /api/node_modules/
 /models-view/node_modules/
-/model-view/node_modules/
 .idea/
 
 node_modules/**/*

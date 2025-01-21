@@ -1,15 +1,16 @@
 FROM node:16.13.0
 
-EXPOSE 19000
-EXPOSE 19001
-EXPOSE 19002
+#LABEL maintainer="estoy@moviendo.me"
+
+RUN npm -g config set user root
+
+RUN npm install -g expo-cli
 
 WORKDIR /app
-COPY ./ ./
-RUN npm install
 
-RUN npm install --global expo-cli
+ENV NODE_ENV development
 
-CMD [ "npm", "start" ]
+COPY app.json yarn.lock package.json  /app/
+RUN yarn install
 
-
+CMD ["yarn", "start"]
